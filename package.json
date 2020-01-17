@@ -1,10 +1,9 @@
 {
   "name": "ningxia-trip-map",
-  "title": "ningxia-trip-map",
+  "title": "旅游地图",
   "version": "0.1.0",
   "private": true,
   "author": "jikeytang <jikeytang@gmail.com>",
-  "title": "旅游地图",
   "description": "旅游地图",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,7 +13,7 @@
   "dependencies": {
     "axios": "^0.19.1",
     "core-js": "^3.4.4",
-    "vant": "^2.4.2",
+    "view-design": "^4.1.1",
     "vue": "^2.6.10",
     "vue-baidu-map": "^0.21.22",
     "vue-router": "^3.1.5",
@@ -25,6 +24,7 @@
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.13.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.13.0",

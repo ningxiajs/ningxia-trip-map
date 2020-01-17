@@ -1,4 +1,4 @@
 const getters = {
-  theme: state => state.app.theme,
+  theme: state => state.app.theme
 }
 export default getters

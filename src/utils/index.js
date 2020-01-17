@@ -5,7 +5,7 @@
  * @param {String} title 标题
  */
 export function setPageTitle (titleText) {
-  const processTitle = process.env.VUE_APP_TITLE || '宁夏旅游地图'
+  const processTitle = process.env.VUE_APP_TITLE || '测试'
   window.document.title = `${processTitle} ${titleText ? ` - ${titleText}` : ''}`
 }
 
